@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/dustinheestand/trip-planner/issues"
   },
-  "homepage": "https://github.com/dustinheestand/trip-planner#readme"
+  "homepage": "https://github.com/dustinheestand/trip-planner#readme",
+  "dependencies": {
+    "mapbox-gl": "^0.47.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
 }
