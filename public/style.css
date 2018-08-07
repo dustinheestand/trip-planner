@@ -18,6 +18,13 @@ body {
   display: flex;
   flex-direction: row;
   height: 95vh;
+
+}
+
+@media (max-width: 500px){
+  #map-wrapper {
+    flex-direction: column;
+  }
 }
 
 #map {

@@ -12,6 +12,10 @@ function restaurant(lng, lat, map) {
   return marker('r', lng, lat, map);
 }
 
+let activityArr = [];
+let hotelArr = [];
+let restaurantArr = [];
+
 function marker(type, lng, lat, map) {
   const markerDomEl = document.createElement('div');
   markerDomEl.style.width = '32px';
@@ -19,6 +23,7 @@ function marker(type, lng, lat, map) {
 
   if (type === 'a') {
     markerDomEl.style.backgroundImage = 'url(http://i.imgur.com/WbMOfMl.png)';
+    activityArr.push()
   } else if (type === 'h') {
     markerDomEl.style.backgroundImage = 'url(http://i.imgur.com/D9574Cu.png)';
   } else {
