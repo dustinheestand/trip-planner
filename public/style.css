@@ -18,10 +18,9 @@ body {
   display: flex;
   flex-direction: row;
   height: 95vh;
-
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
   #map-wrapper {
     flex-direction: column;
   }
@@ -40,20 +39,53 @@ body {
 #marker-selector {
   flex: 1;
   background-color: #bada55;
+
+  margin: 0 4%;
+  padding: 2%;
 }
 
 #itinerary {
   flex: 1;
   display: flex;
   flex-direction: column;
+  padding: 0 2%;
 }
 
 #itin-header {
   flex: 1;
   background-color: darkgoldenrod;
+  margin: 2%;
+  padding: 2%;
 }
 
 #itin-body {
   flex: 5;
   background-color: cornflowerblue;
+  margin: 2%;
+  padding: 2%;
+}
+
+.danger {
+  background-color: #fc2910;
+  font-size: 24px;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  color: #ffffff;
+}
+
+select {
+  font-size: 18px;
+  width: 80%;
+}
+
+option {
+  font-size: 18px;
+}
+
+.selector-type {
+  padding: 18px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3e299e;
 }
