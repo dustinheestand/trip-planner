@@ -2,41 +2,51 @@
   box-sizing: border-box;
 }
 
-
 body {
   margin: 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #c1b5ad;
 }
 
-#navbar{
-width: 100vw;
-height: 5vh;
-background-color: #c0ffee;
+#navbar {
+  width: 100vw;
+  height: 5vh;
+  background-color: #c0ffee;
 }
 
-#map-wrapper{
-display: flex;
-flex-direction: row;
-height: 100%;
+#map-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
 }
 
 #map {
-  flex: 3;
+  flex: 3 0;
 }
 
-#ui{
+#ui {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 1 0 200px;
 }
 
-#marker-selector{
+#marker-selector {
   flex: 1;
   background-color: #bada55;
 }
 
-#itinerary{
+#itinerary {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#itin-header {
+  flex: 1;
+  background-color: darkgoldenrod;
+}
+
+#itin-body {
+  flex: 5;
   background-color: cornflowerblue;
 }
